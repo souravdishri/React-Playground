@@ -14,13 +14,13 @@ function App() {
 
   return (
     <>
-    <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Hello React! | Tailwind</h1>
+      <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Hello React! | Tailwind</h1>
 
-    {/* <Card username="Hello React!" obj={myobj}/> //this will work */}
-    {/* <Card username="Hello React!" obj={newArr}/> //this will work */}
+      {/* <Card username="Hello React!" obj={myobj}/> //this will work */}
+      {/* <Card username="Hello React!" obj={newArr}/> //this will work */}
 
-    <Card username="Hello React!" btnText="click me" />
-    <Card username="sourav" />
+      <Card username="Hello React!" btnText="click me" />
+      <Card username="sourav" />
 
     </>
   )
