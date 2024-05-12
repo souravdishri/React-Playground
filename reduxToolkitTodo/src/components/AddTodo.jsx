@@ -8,7 +8,7 @@
             const dispatch = useDispatch()
         
             const addTodoHandler = (e) => {
-                e.preventDefault()
+                e.preventDefault()              //handle the form submission event
                 dispatch(addTodo(input))        //dispatch uses reducers to change values in store
                 setInput('')                    //cleanup the form after addTodo insertion
             }
