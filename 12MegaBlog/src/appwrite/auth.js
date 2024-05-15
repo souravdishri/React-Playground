@@ -38,7 +38,7 @@ export class AuthService {
         }
     }
 
-    async getCurrentUser() {
+    async getCurrentUser() {                        //check whether user is login or not
         try {
             return await this.account.get();
         } catch (error) {
