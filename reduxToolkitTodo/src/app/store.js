@@ -6,3 +6,6 @@ import todoReducer from '../features/todo/todoSlice';
 export const store = configureStore({
     reducer: todoReducer
 })
+
+
+//this file's only work is to tell all the reducers
