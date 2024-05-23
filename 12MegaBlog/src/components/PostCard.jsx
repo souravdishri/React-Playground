@@ -1,7 +1,7 @@
 import React from 'react'
 
 //to be changed by service
-import appwriteService from "../appwrite/config"
+import appwriteService from "../appwrite/config.js"
 import { Link } from 'react-router-dom'
 
 //here we use ($id) because appwrite provide like this
