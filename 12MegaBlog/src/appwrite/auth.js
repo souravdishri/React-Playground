@@ -32,7 +32,7 @@ export class AuthService {
 
     async login({ email, password }) {                  //sessions
         try {
-            return await this.account.createEmailPasswordSession(email, password);
+            return await this.account.createEmailPasswordSession(email, password); //changed method name to fix the error
         } catch (error) {
             throw error;
         }
