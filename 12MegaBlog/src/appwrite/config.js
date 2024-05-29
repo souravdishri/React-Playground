@@ -137,4 +137,4 @@ export class Service{
 
 
 const appwriteService = new Service()               //object
-export default appwriteService
+export default appwriteService                      //export the object
