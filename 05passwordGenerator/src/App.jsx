@@ -16,7 +16,10 @@ function App() {
     if (charAllowed) str += "!@#$%^&*-_+=[]{}~`";
 
     for (let i = 1; i <= length; i++) {
-      let char = Math.floor(Math.random() * str.length + 1);
+      // let char = Math.floor(Math.random() * str.length + 1);
+      // this one is correct, previous one was having bugs like ("zero" index never getting selected),
+      // ("out of bound" error when char equals to str.length) 
+      let char = Math.floor(Math.random() * str.length);
       pass += str.charAt(char);
     }
 
