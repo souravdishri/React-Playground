@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 function Header() {
-    ////we will find "auth" in store.js and "status" in authSlice.js initial state
+    //we will find "auth" in store.js and "status" in authSlice.js initial state
     const authStatus = useSelector((state) => state.auth.status);       
     const navigate = useNavigate();
 
