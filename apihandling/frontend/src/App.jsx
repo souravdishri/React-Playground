@@ -39,7 +39,7 @@ function App() {
     })()
     //Cleanup 
     return () => {
-      controller.abort()    //To avoid race conditioon
+      controller.abort()    //To avoid race condition
     }
   }, [search])
 
